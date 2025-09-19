@@ -1,0 +1,11 @@
+python main.py --config ./configs/ve/Dental_256_ncsnpp_continuous.py --eval_folder ./checkpoints --mode train --workdir ./assets/1)original
+
+
+
+python main.py --config ./configs/ve/Dental_256_ncsnpp_continuous.py --eval_folder ./checkpoints --mode train --workdir ./assets/2)smooth_21_1try
+
+
+
+
+
+python main.py --config ./configs/ve/Dental_256_ncsnpp_continuous.py --eval_folder ./checkpoints --mode eval --workdir ./assets/2)smooth_21_1try
